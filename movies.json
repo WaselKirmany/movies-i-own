@@ -4,210 +4,210 @@
       "17 Again.mkv"
     ],
     "href": "http://imdb.com/title/tt0974661/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjA2NTI1Mzg3N15BMl5BanBnXkFtZTcwMjYwNjAzMg@@._V1_SX89_AL_.jpg",
     "title": "17 Again (2009)",
     "rating": "6.4",
-    "duration": "102 min"
+    "duration": "102 min",
+    "img": "./images/17 Again (2009).jpg"
   },
   "alice in wonderland 1951": {
     "files": [
       "Alice_in_Wonderland_(1951).mkv"
     ],
     "href": "http://imdb.com/title/tt0043274/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTgyMjM2NTAxMF5BMl5BanBnXkFtZTgwNjU1NDc2MTE@._V1_SX89_AL_.jpg",
     "title": "Alice in Wonderland (1951)",
     "rating": "7.4",
-    "duration": "75 min"
+    "duration": "75 min",
+    "img": "./images/Alice in Wonderland (1951).jpg"
   },
   "alice in wonderland 2010": {
     "files": [
       "Alice_in_Wonderland_(2010)_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt1014759/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTMwNjAxMTc0Nl5BMl5BanBnXkFtZTcwODc3ODk5Mg@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Alice in Wonderland (I) (2010)",
     "rating": "6.5",
-    "duration": "108 min"
+    "duration": "108 min",
+    "img": "./images/Alice in Wonderland (I) (2010).jpg"
   },
   "blow": {
     "files": [
       "BLOW"
     ],
     "href": "http://imdb.com/title/tt0221027/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTQ5ODQwNzIxNV5BMl5BanBnXkFtZTYwNzAyMDE3._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Blow (2001)",
     "rating": "7.6",
-    "duration": "124 min"
+    "duration": "124 min",
+    "img": "./images/Blow (2001).jpg"
   },
   "batman begins 2005": {
     "files": [
       "Batman_Begins_(2005).mkv"
     ],
     "href": "http://imdb.com/title/tt0372784/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BNTM3OTc0MzM2OV5BMl5BanBnXkFtZTYwNzUwMTI3._V1_SX89_AL_.jpg",
     "title": "Batman Begins (2005)",
     "rating": "8.3",
-    "duration": "140 min"
+    "duration": "140 min",
+    "img": "./images/Batman Begins (2005).jpg"
   },
-  "beauty and the beast": {
+  "beauty and the beast 1991": {
     "files": [
-      "Beauty_and_the_Beast_(Disc_1)_t06.mkv"
+      "Beauty_and_the_Beast_(1991)_(Disc_1)_t06.mkv"
     ],
-    "href": "http://imdb.com/title/tt2193041/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTM3MzE1ODE4OF5BMl5BanBnXkFtZTcwODI0MTcyOA@@._V1_SX89_AL_.jpg",
-    "title": "Beauty and the Beast (2012– )",
-    "rating": "7.3",
-    "duration": "60 min"
+    "href": "http://imdb.com/title/tt0101414/",
+    "title": "Beauty and the Beast (1991)",
+    "rating": "8.1",
+    "duration": "84 min",
+    "img": "./images/Beauty and the Beast (1991).jpg"
   },
   "beetlejuice 1988": {
     "files": [
       "Beetlejuice_(1988).mkv"
     ],
     "href": "http://imdb.com/title/tt0094721/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTUwODE3MDE0MV5BMl5BanBnXkFtZTgwNTk1MjI4MzE@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Beetlejuice (1988)",
     "rating": "7.4",
-    "duration": "92 min"
+    "duration": "92 min",
+    "img": "./images/Beetlejuice (1988).jpg"
   },
   "brave 2012": {
     "files": [
       "Brave_(2012).mkv"
     ],
     "href": "http://imdb.com/title/tt1217209/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Brave (2012)",
     "rating": "7.2",
-    "duration": "93 min"
+    "duration": "93 min",
+    "img": "./images/Brave (2012).jpg"
   },
   "brides maids": {
     "files": [
       "Brides_Maids_Unrated.mkv"
     ],
     "href": "http://imdb.com/title/tt1478338/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjAyOTMyMzUxNl5BMl5BanBnXkFtZTcwODI4MzE0NA@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Bridesmaids (I) (2011)",
     "rating": "6.8",
-    "duration": "125 min"
+    "duration": "125 min",
+    "img": "./images/Bridesmaids (I) (2011).jpg"
   },
   "charlie and the chocolate factory": {
     "files": [
       "Charlie_And_The_Chocolate_Factory_t01.mkv"
     ],
     "href": "http://imdb.com/title/tt0367594/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BNjcxMjg1Njg2NF5BMl5BanBnXkFtZTcwMjQ4NzMzMw@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Charlie and the Chocolate Factory (2005)",
     "rating": "6.7",
-    "duration": "115 min"
+    "duration": "115 min",
+    "img": "./images/Charlie and the Chocolate Factory (2005).jpg"
   },
   "cinderella 1950": {
     "files": [
       "Cinderella_(1950)_Diamond_Edition_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0042332/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjI5NTcxMjE5N15BMl5BanBnXkFtZTgwNzYyNTM3MjE@._V1_SX89_AL_.jpg",
     "title": "Cinderella (1950)",
     "rating": "7.3",
-    "duration": "74 min"
+    "duration": "74 min",
+    "img": "./images/Cinderella (1950).jpg"
   },
   "coraline": {
     "files": [
       "Coraline.mkv"
     ],
     "href": "http://imdb.com/title/tt0327597/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Coraline (2009)",
     "rating": "7.7",
-    "duration": "100 min"
+    "duration": "100 min",
+    "img": "./images/Coraline (2009).jpg"
   },
   "despicable me 2": {
     "files": [
       "Despicable_Me_2_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt1690953/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjExNjAyNTcyMF5BMl5BanBnXkFtZTgwODQzMjQ3MDE@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Despicable Me 2 (2013)",
     "rating": "7.5",
-    "duration": "98 min"
+    "duration": "98 min",
+    "img": "./images/Despicable Me 2 (2013).jpg"
   },
   "despicable me": {
     "files": [
       "Despicable_Me_t02.mkv"
     ],
     "href": "http://imdb.com/title/tt1323594/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTY3NjY0MTQ0Nl5BMl5BanBnXkFtZTcwMzQ2MTc0Mw@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Despicable Me (2010)",
     "rating": "7.7",
-    "duration": "95 min"
+    "duration": "95 min",
+    "img": "./images/Despicable Me (2010).jpg"
   },
   "dr. seuss' the lorax  2012": {
     "files": [
       "Dr. Seuss' The Lorax (2012).mkv"
     ],
     "href": "http://imdb.com/title/tt1482459/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTU1MTAwMjk1NF5BMl5BanBnXkFtZTcwMDI5NDc4Ng@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "The Lorax (2012)",
     "rating": "6.5",
-    "duration": "86 min"
+    "duration": "86 min",
+    "img": "./images/The Lorax (2012).jpg"
   },
   "dumbo 1941": {
     "files": [
       "Dumbo_(1941).mkv"
     ],
     "href": "http://imdb.com/title/tt0033563/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjIyNDg3NDMwMl5BMl5BanBnXkFtZTgwNjI0Njg0MTE@._V1._CR23,22,947,1455_SX89_AL_.jpg",
     "title": "Dumbo (1941)",
     "rating": "7.3",
-    "duration": "64 min"
+    "duration": "64 min",
+    "img": "./images/Dumbo (1941).jpg"
   },
   "ed wood": {
     "files": [
       "Ed Wood"
     ],
     "href": "http://imdb.com/title/tt0109707/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjAzODM1MDMxN15BMl5BanBnXkFtZTgwOTgwNTc2MDE@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Ed Wood (1994)",
     "rating": "7.9",
-    "duration": "127 min"
+    "duration": "127 min",
+    "img": "./images/Ed Wood (1994).jpg"
   },
   "edward scissorhands  1990": {
     "files": [
       "Edward Scissorhands (1990).mkv"
     ],
     "href": "http://imdb.com/title/tt0099487/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BOTE2NDExNjQxMF5BMl5BanBnXkFtZTgwMzQ3NzMxMDE@._V1_SX89_AL_.jpg",
     "title": "Edward Scissorhands (1990)",
     "rating": "8",
-    "duration": "105 min"
+    "duration": "105 min",
+    "img": "./images/Edward Scissorhands (1990).jpg"
   },
   "enchanted  2007": {
     "files": [
       "Enchanted (2007).mkv"
     ],
     "href": "http://imdb.com/title/tt0461770/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjE4NDQ2Mjc0OF5BMl5BanBnXkFtZTcwNzQ2NDE1MQ@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Enchanted (2007)",
     "rating": "7.2",
-    "duration": "107 min"
+    "duration": "107 min",
+    "img": "./images/Enchanted (2007).jpg"
   },
   "finding nemo": {
     "files": [
       "Finding_Nemo_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0266543/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTY1MTg1NDAxOV5BMl5BanBnXkFtZTcwMjg1MDI5Nw@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Finding Nemo (2003)",
     "rating": "8.2",
-    "duration": "100 min"
+    "duration": "100 min",
+    "img": "./images/Finding Nemo (2003).jpg"
   },
   "good will hunting": {
     "files": [
       "Good_Will_Hunting_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0119217/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTk0NjY0Mzg5MF5BMl5BanBnXkFtZTcwNzM1OTM2MQ@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Good Will Hunting (1997)",
     "rating": "8.3",
-    "duration": "126 min"
+    "duration": "126 min",
+    "img": "./images/Good Will Hunting (1997).jpg"
   },
   "guardians of the galaxy": {
     "files": [
@@ -215,70 +215,70 @@
       "Guardians_of_the_Galaxy_t01.mkv"
     ],
     "href": "http://imdb.com/title/tt2015381/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Guardians of the Galaxy (2014)",
     "rating": "8.2",
-    "duration": "121 min"
+    "duration": "121 min",
+    "img": "./images/Guardians of the Galaxy (2014).jpg"
   },
   "hannibal": {
     "files": [
       "Hannibal"
     ],
     "href": "http://imdb.com/title/tt2243973/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTk3NDI1MDM5MV5BMl5BanBnXkFtZTcwNjkyODIxOQ@@._V1_SY132_CR8,0,89,132_AL_.jpg",
     "title": "Hannibal (2013– )",
     "rating": "8.6",
-    "duration": "44 min"
+    "duration": "44 min",
+    "img": "./images/Hannibal (2013– ).jpg"
   },
   "hot fuzz": {
     "files": [
       "Hot_Fuzz_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0425112/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTIxODg2NDU1MF5BMl5BanBnXkFtZTcwOTc3MDM0MQ@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Hot Fuzz (2007)",
     "rating": "7.9",
-    "duration": "121 min"
+    "duration": "121 min",
+    "img": "./images/Hot Fuzz (2007).jpg"
   },
   "hugo": {
     "files": [
       "Hugo_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0970179/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjAzNzk5MzgyNF5BMl5BanBnXkFtZTcwOTE4NDU5Ng@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Hugo (2011)",
     "rating": "7.6",
-    "duration": "126 min"
+    "duration": "126 min",
+    "img": "./images/Hugo (2011).jpg"
   },
   "hurt locker, the": {
     "files": [
       "Hurt_Locker,_The_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0887912/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BNzEwNzQ1NjczM15BMl5BanBnXkFtZTcwNTk3MTE1Mg@@._V1_SX89_AL_.jpg",
     "title": "The Hurt Locker (2008)",
     "rating": "7.6",
-    "duration": "131 min"
+    "duration": "131 min",
+    "img": "./images/The Hurt Locker (2008).jpg"
   },
   "inception": {
     "files": [
       "Inception_t15.mkv"
     ],
     "href": "http://imdb.com/title/tt1375666/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Inception (2010)",
     "rating": "8.8",
-    "duration": "148 min"
+    "duration": "148 min",
+    "img": "./images/Inception (2010).jpg"
   },
   "iron man": {
     "files": [
       "Iron_Man_Disc_1_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0371746/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Iron Man (2008)",
     "rating": "7.9",
-    "duration": "126 min"
+    "duration": "126 min",
+    "img": "./images/Iron Man (2008).jpg"
   },
   "jiro dreams of sushi": {
     "files": [
@@ -286,10 +286,10 @@
       "JIRO_DREAMS_OF_SUSHI_title01.mkv"
     ],
     "href": "http://imdb.com/title/tt1772925/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTA5NzQzODUxOTheQTJeQWpwZ15BbWU3MDIwODg1MDc@._V1_SY132_CR2,0,89,132_AL_.jpg",
     "title": "Jiro Dreams of Sushi (2011)",
     "rating": "7.9",
-    "duration": "81 min"
+    "duration": "81 min",
+    "img": "./images/Jiro Dreams of Sushi (2011).jpg"
   },
   "jacobs ladder": {
     "files": [
@@ -297,40 +297,40 @@
       "Jacobs_Ladder_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0099871/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjMwMDMxNzIzMF5BMl5BanBnXkFtZTgwMDMxNzQxMTE@._V1_SX89_AL_.jpg",
     "title": "Jacob's Ladder (I) (1990)",
     "rating": "7.6",
-    "duration": "113 min"
+    "duration": "113 min",
+    "img": "./images/Jacob's Ladder (I) (1990).jpg"
   },
   "lady and the tramp": {
     "files": [
       "Lady_and_the_Tramp_Diamond_Edition_t03.mkv"
     ],
     "href": "http://imdb.com/title/tt0048280/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjAwNzA3NTk0NV5BMl5BanBnXkFtZTcwMzkyNDEzMQ@@._V1_SY132_CR3,0,89,132_AL_.jpg",
     "title": "Lady and the Tramp (1955)",
     "rating": "7.4",
-    "duration": "76 min"
+    "duration": "76 min",
+    "img": "./images/Lady and the Tramp (1955).jpg"
   },
   "les miserables": {
     "files": [
       "Les_Miserables_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt1707386/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTQ4NDI3NDg4M15BMl5BanBnXkFtZTcwMjY5OTI1OA@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Les Misérables (2012)",
     "rating": "7.7",
-    "duration": "158 min"
+    "duration": "158 min",
+    "img": "./images/Les Misérables (2012).jpg"
   },
   "life of pi": {
     "files": [
       "Life_of_Pi_t02.mkv"
     ],
     "href": "http://imdb.com/title/tt0454876/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BNTg2OTY2ODg5OF5BMl5BanBnXkFtZTcwODM5MTYxOA@@._V1_SX89_AL_.jpg",
     "title": "Life of Pi (2012)",
     "rating": "8",
-    "duration": "127 min"
+    "duration": "127 min",
+    "img": "./images/Life of Pi (2012).jpg"
   },
   "little miss sunshine": {
     "files": [
@@ -338,20 +338,20 @@
       "Little_Miss_Sunshine_t01.mkv"
     ],
     "href": "http://imdb.com/title/tt0449059/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTgzNTgzODU0NV5BMl5BanBnXkFtZTcwMjEyMjMzMQ@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Little Miss Sunshine (2006)",
     "rating": "7.9",
-    "duration": "101 min"
+    "duration": "101 min",
+    "img": "./images/Little Miss Sunshine (2006).jpg"
   },
   "man of steel": {
     "files": [
       "Man_of_Steel_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0770828/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjI5OTYzNjI0Ml5BMl5BanBnXkFtZTcwMzM1NDA1OQ@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Man of Steel (2013)",
     "rating": "7.2",
-    "duration": "143 min"
+    "duration": "143 min",
+    "img": "./images/Man of Steel (2013).jpg"
   },
   "marx brothers inside the marx brothers": {
     "files": [
@@ -363,10 +363,10 @@
       "Moneyball_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt1210166/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjAxOTU3Mzc1M15BMl5BanBnXkFtZTcwMzk1ODUzNg@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Moneyball (2011)",
     "rating": "7.6",
-    "duration": "133 min"
+    "duration": "133 min",
+    "img": "./images/Moneyball (2011).jpg"
   },
   "monsters, inc": {
     "files": [
@@ -374,10 +374,10 @@
       "Monsters,_Inc_(Disc_1)_t01.mkv"
     ],
     "href": "http://imdb.com/title/tt0198781/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Monsters, Inc. (2001)",
     "rating": "8.1",
-    "duration": "92 min"
+    "duration": "92 min",
+    "img": "./images/Monsters, Inc. (2001).jpg"
   },
   "nightmare on elm street": {
     "files": [
@@ -385,180 +385,180 @@
       "Nightmare_On_Elm_Street_t01.mkv"
     ],
     "href": "http://imdb.com/title/tt0087800/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTMxOTk4NjMzOV5BMl5BanBnXkFtZTcwOTQ3NDAzMg@@._V1_SX89_AL_.jpg",
     "title": "A Nightmare on Elm Street (1984)",
     "rating": "7.5",
-    "duration": "91 min"
+    "duration": "91 min",
+    "img": "./images/A Nightmare on Elm Street (1984).jpg"
   },
   "prizzis honor lb": {
     "files": [
       "PRIZZIS_HONOR_LB_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0089841/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTIwNzg2OTMxNF5BMl5BanBnXkFtZTcwMzM4MTAwMQ@@._V1_SY132_CR1,0,89,132_AL_.jpg",
     "title": "Prizzi's Honor (1985)",
     "rating": "6.8",
-    "duration": "130 min"
+    "duration": "130 min",
+    "img": "./images/Prizzi's Honor (1985).jpg"
   },
   "pee wee's big adventure": {
     "files": [
       "Pee_Wee's_Big_Adventure_t01.mkv"
     ],
     "href": "http://imdb.com/title/tt0089791/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjEyMjI3MjAxMF5BMl5BanBnXkFtZTYwOTMxNzk4._V1_SY132_CR2,0,89,132_AL_.jpg",
     "title": "Pee-wee's Big Adventure (1985)",
     "rating": "7",
-    "duration": "91 min"
+    "duration": "91 min",
+    "img": "./images/Pee-wee's Big Adventure (1985).jpg"
   },
   "perfect storm, the": {
     "files": [
       "Perfect Storm, The.mkv"
     ],
     "href": "http://imdb.com/title/tt0177971/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BNzIwMTc0NTI0Nl5BMl5BanBnXkFtZTcwNTk4Mzc3Mw@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "The Perfect Storm (2000)",
     "rating": "6.4",
-    "duration": "130 min"
+    "duration": "130 min",
+    "img": "./images/The Perfect Storm (2000).jpg"
   },
   "peter pan 1953": {
     "files": [
       "Peter_Pan_(1953)_Diamond_Edition_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0046183/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BNzQ3OTU3ODA3Nl5BMl5BanBnXkFtZTcwNzYwODk3OA@@._V1_SY132_CR2,0,89,132_AL_.jpg",
     "title": "Peter Pan (1953)",
     "rating": "7.4",
-    "duration": "77 min"
+    "duration": "77 min",
+    "img": "./images/Peter Pan (1953).jpg"
   },
   "pinocchio 1940": {
     "files": [
       "Pinocchio_(1940).mkv"
     ],
     "href": "http://imdb.com/title/tt0032910/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTI0Nzk1NTQ2Ml5BMl5BanBnXkFtZTcwNjgyNDIzMg@@._V1_SY132_CR3,0,89,132_AL_.jpg",
     "title": "Pinocchio (1940)",
     "rating": "7.5",
-    "duration": "88 min"
+    "duration": "88 min",
+    "img": "./images/Pinocchio (1940).jpg"
   },
   "ponyo": {
     "files": [
       "Ponyo"
     ],
     "href": "http://imdb.com/title/tt0876563/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjA5NzkxNTg2MF5BMl5BanBnXkFtZTcwMTA3MjU1Mg@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Ponyo (2008)",
     "rating": "7.7",
-    "duration": "101 min"
+    "duration": "101 min",
+    "img": "./images/Ponyo (2008).jpg"
   },
   "pretty in pink": {
     "files": [
       "Pretty_in_Pink_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0091790/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTI2OTk5NTE5NV5BMl5BanBnXkFtZTcwODA0NTQzMQ@@._V1_SY132_CR2,0,89,132_AL_.jpg",
     "title": "Pretty in Pink (1986)",
     "rating": "6.7",
-    "duration": "96 min"
+    "duration": "96 min",
+    "img": "./images/Pretty in Pink (1986).jpg"
   },
   "pursuit of happyness, the": {
     "files": [
       "Pursuit_Of_Happyness,_The.mkv"
     ],
     "href": "http://imdb.com/title/tt0454921/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_SX89_AL_.jpg",
     "title": "The Pursuit of Happyness (2006)",
     "rating": "7.9",
-    "duration": "117 min"
+    "duration": "117 min",
+    "img": "./images/The Pursuit of Happyness (2006).jpg"
   },
   "ratatouille": {
     "files": [
       "Ratatouille"
     ],
     "href": "http://imdb.com/title/tt0382932/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Ratatouille (2007)",
     "rating": "8",
-    "duration": "111 min"
+    "duration": "111 min",
+    "img": "./images/Ratatouille (2007).jpg"
   },
   "scooby doo": {
     "files": [
       "Scooby Doo"
     ],
     "href": "http://imdb.com/title/tt0267913/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTg4MzMzMTY0OF5BMl5BanBnXkFtZTYwNzM3MTg2._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Scooby-Doo (2002)",
     "rating": "4.9",
-    "duration": "86 min"
+    "duration": "86 min",
+    "img": "./images/Scooby-Doo (2002).jpg"
   },
   "seven pounds": {
     "files": [
       "Seven_Pounds_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0814314/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTU0NzY0MTY5OF5BMl5BanBnXkFtZTcwODY3MDEwMg@@._V1_SY132_CR5,0,89,132_AL_.jpg",
     "title": "Seven Pounds (2008)",
     "rating": "7.7",
-    "duration": "123 min"
+    "duration": "123 min",
+    "img": "./images/Seven Pounds (2008).jpg"
   },
   "shaun of the dead": {
     "files": [
       "Shaun of the Dead.mkv"
     ],
     "href": "http://imdb.com/title/tt0365748/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTU2NjA0NDk0NV5BMl5BanBnXkFtZTcwOTA0OTQzMw@@._V1_SX89_AL_.jpg",
     "title": "Shaun of the Dead (2004)",
     "rating": "8",
-    "duration": "99 min"
+    "duration": "99 min",
+    "img": "./images/Shaun of the Dead (2004).jpg"
   },
   "shutter island": {
     "files": [
       "Shutter_Island_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt1130884/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTMxMTIyNzMxMV5BMl5BanBnXkFtZTcwOTc4OTI3Mg@@._V1_SX89_AL_.jpg",
     "title": "Shutter Island (2010)",
     "rating": "8.1",
-    "duration": "138 min"
+    "duration": "138 min",
+    "img": "./images/Shutter Island (2010).jpg"
   },
   "sixth sense": {
     "files": [
       "Sixth Sense.mkv"
     ],
     "href": "http://imdb.com/title/tt0167404/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTc2MTQxNDI5MV5BMl5BanBnXkFtZTYwNjkzMDc4._V1_SX89_AL_.jpg",
     "title": "The Sixth Sense (1999)",
     "rating": "8.2",
-    "duration": "107 min"
+    "duration": "107 min",
+    "img": "./images/The Sixth Sense (1999).jpg"
   },
   "snow white": {
     "files": [
       "Snow_White_Diamond_Edition_(Disc_1)_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt1735898/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTQ1NDA0MTk5OV5BMl5BanBnXkFtZTcwMTM4NDMwNw@@._V1_SX89_AL_.jpg",
     "title": "Snow White and the Huntsman (2012)",
     "rating": "6.2",
-    "duration": "127 min"
+    "duration": "127 min",
+    "img": "./images/Snow White and the Huntsman (2012).jpg"
   },
   "spongebob squarepants": {
     "files": [
       "Spongebob Squarepants"
     ],
     "href": "http://imdb.com/title/tt0206512/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjE1MDc5NjAzNl5BMl5BanBnXkFtZTYwMzQwNDc2._V1_SY132_CR5,0,89,132_AL_.jpg",
     "title": "SpongeBob SquarePants (1999– )",
     "rating": "8.1",
-    "duration": "30 min"
+    "duration": "30 min",
+    "img": "./images/SpongeBob SquarePants (1999– ).jpg"
   },
   "st elmo's fire": {
     "files": [
       "St_Elmo's_Fire_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0090060/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjE4ODM2MTAzOF5BMl5BanBnXkFtZTgwOTYxNjcxMTE@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "St. Elmo's Fire (1985)",
     "rating": "6.3",
-    "duration": "110 min"
+    "duration": "110 min",
+    "img": "./images/St. Elmo's Fire (1985).jpg"
   },
   "step brothers": {
     "files": [
@@ -567,50 +567,50 @@
       "Step_Brothers_t02.mkv"
     ],
     "href": "http://imdb.com/title/tt0838283/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTcwNzUzMjU1OV5BMl5BanBnXkFtZTcwMTM0NDQ2MQ@@._V1_SX89_AL_.jpg",
     "title": "Step Brothers (2008)",
     "rating": "6.9",
-    "duration": "98 min"
+    "duration": "98 min",
+    "img": "./images/Step Brothers (2008).jpg"
   },
   "the departed": {
     "files": [
       "THE_DEPARTED_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0407887/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "The Departed (2006)",
     "rating": "8.5",
-    "duration": "151 min"
+    "duration": "151 min",
+    "img": "./images/The Departed (2006).jpg"
   },
   "temple grandin": {
     "files": [
       "Temple Grandin.mkv"
     ],
     "href": "http://imdb.com/title/tt1278469/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjQwOTQ4NDk5OF5BMl5BanBnXkFtZTcwNzM0Mjk3Mw@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Temple Grandin (2010)",
     "rating": "8.4",
-    "duration": "107 min"
+    "duration": "107 min",
+    "img": "./images/Temple Grandin (2010).jpg"
   },
   "the act of killing": {
     "files": [
       "The Act of Killing.mkv"
     ],
     "href": "http://imdb.com/title/tt2375605/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BNzQ0NDA1ODQ3NF5BMl5BanBnXkFtZTcwNjQwMzk0OA@@._V1_SY132_CR1,0,89,132_AL_.jpg",
     "title": "The Act of Killing (2012)",
     "rating": "8.2",
-    "duration": "115 min"
+    "duration": "115 min",
+    "img": "./images/The Act of Killing (2012).jpg"
   },
   "the wire": {
     "files": [
       "The Wire"
     ],
     "href": "http://imdb.com/title/tt0306414/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BNjc1NzYwODEyMV5BMl5BanBnXkFtZTcwNTcxMzU1MQ@@._V1_SY132_CR4,0,89,132_AL_.jpg",
     "title": "The Wire (2002–2008)",
     "rating": "9.4",
-    "duration": "55 min"
+    "duration": "55 min",
+    "img": "./images/The Wire (2002–2008).jpg"
   },
   "the blind side": {
     "files": [
@@ -618,100 +618,100 @@
       "The_Blind_Side_t01.mkv"
     ],
     "href": "http://imdb.com/title/tt0878804/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjEzOTE3ODM3OF5BMl5BanBnXkFtZTcwMzYyODI4Mg@@._V1_SX89_AL_.jpg",
     "title": "The Blind Side (2009)",
     "rating": "7.7",
-    "duration": "129 min"
+    "duration": "129 min",
+    "img": "./images/The Blind Side (2009).jpg"
   },
   "the bourne identity": {
     "files": [
       "The_Bourne_Identity_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0258463/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTQ3MDA4MDIyN15BMl5BanBnXkFtZTYwOTg0Njk4._V1_SX89_AL_.jpg",
     "title": "The Bourne Identity (2002)",
     "rating": "7.9",
-    "duration": "119 min"
+    "duration": "119 min",
+    "img": "./images/The Bourne Identity (2002).jpg"
   },
   "the bourne supremacy": {
     "files": [
       "The_Bourne_Supremacy_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0372183/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTAxODk0MjEyMjZeQTJeQWpwZ15BbWU2MDgzMzExNw@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "The Bourne Supremacy (2004)",
     "rating": "7.8",
-    "duration": "108 min"
+    "duration": "108 min",
+    "img": "./images/The Bourne Supremacy (2004).jpg"
   },
   "the bourne ultimatum": {
     "files": [
       "The_Bourne_Ultimatum_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0440963/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTgzNjMwOTM3N15BMl5BanBnXkFtZTcwMzA5MDY0MQ@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "The Bourne Ultimatum (2007)",
     "rating": "8.1",
-    "duration": "115 min"
+    "duration": "115 min",
+    "img": "./images/The Bourne Ultimatum (2007).jpg"
   },
   "the dark knight": {
     "files": [
       "The_Dark_Knight_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0468569/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "The Dark Knight (2008)",
     "rating": "9",
-    "duration": "152 min"
+    "duration": "152 min",
+    "img": "./images/The Dark Knight (2008).jpg"
   },
   "the giver": {
     "files": [
       "The_Giver_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0435651/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTY1MTIxMjg2Ml5BMl5BanBnXkFtZTgwMjUyNzgwMjE@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "The Giver (2014)",
     "rating": "6.5",
-    "duration": "97 min"
+    "duration": "97 min",
+    "img": "./images/The Giver (2014).jpg"
   },
   "the incredibles": {
     "files": [
       "The_Incredibles_(Disc_1)_t06.mkv"
     ],
     "href": "http://imdb.com/title/tt0317705/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "The Incredibles (2004)",
     "rating": "8",
-    "duration": "115 min"
+    "duration": "115 min",
+    "img": "./images/The Incredibles (2004).jpg"
   },
   "the ring": {
     "files": [
       "The_Ring_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0298130/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BNDA2NTg2NjE4Ml5BMl5BanBnXkFtZTYwMjYxMDg5._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "The Ring (2002)",
     "rating": "7.1",
-    "duration": "115 min"
+    "duration": "115 min",
+    "img": "./images/The Ring (2002).jpg"
   },
   "toy story 2": {
     "files": [
       "Toy_Story_2_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0120363/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTQ0OTU0NTcyNl5BMl5BanBnXkFtZTcwOTk5Mjc4OA@@._V1_SY132_CR5,0,89,132_AL_.jpg",
     "title": "Toy Story 2 (1999)",
     "rating": "7.9",
-    "duration": "92 min"
+    "duration": "92 min",
+    "img": "./images/Toy Story 2 (1999).jpg"
   },
   "toy story 3": {
     "files": [
       "Toy_Story_3_(Disc_1)_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0435761/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_SY132_CR2,0,89,132_AL_.jpg",
     "title": "Toy Story 3 (2010)",
     "rating": "8.4",
-    "duration": "103 min"
+    "duration": "103 min",
+    "img": "./images/Toy Story 3 (2010).jpg"
   },
   "toy story 3 day and night short": {
     "files": [
@@ -723,90 +723,90 @@
       "Toy_Story_t01.mkv"
     ],
     "href": "http://imdb.com/title/tt0114709/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTgwMjI4MzU5N15BMl5BanBnXkFtZTcwMTMyNTk3OA@@._V1_SY132_CR5,0,89,132_AL_.jpg",
     "title": "Toy Story (1995)",
     "rating": "8.3",
-    "duration": "81 min"
+    "duration": "81 min",
+    "img": "./images/Toy Story (1995).jpg"
   },
   "trading places": {
     "files": [
       "Trading_Places.mkv"
     ],
     "href": "http://imdb.com/title/tt0086465/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTc0ODg5NjYwNV5BMl5BanBnXkFtZTcwMDU5MzY0MQ@@._V1_SY132_CR1,0,89,132_AL_.jpg",
     "title": "Trading Places (1983)",
     "rating": "7.5",
-    "duration": "116 min"
+    "duration": "116 min",
+    "img": "./images/Trading Places (1983).jpg"
   },
   "tron legacy": {
     "files": [
       "Tron_Legacy_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt1104001/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTk4NTk4MTk1OF5BMl5BanBnXkFtZTcwNTE2MDIwNA@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "TRON: Legacy (2010)",
     "rating": "6.8",
-    "duration": "125 min"
+    "duration": "125 min",
+    "img": "./images/TRON_ Legacy (2010).jpg"
   },
   "unbreakable": {
     "files": [
       "Unbreakable_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt0217869/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTQ5MzkyMjk2Nl5BMl5BanBnXkFtZTYwOTAxOTE3._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Unbreakable (2000)",
     "rating": "7.2",
-    "duration": "106 min"
+    "duration": "106 min",
+    "img": "./images/Unbreakable (2000).jpg"
   },
   "up": {
     "files": [
       "Up_(Disc_1)_t01.mkv"
     ],
     "href": "http://imdb.com/title/tt1049413/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX89_AL_.jpg",
     "title": "Up (2009)",
     "rating": "8.3",
-    "duration": "96 min"
+    "duration": "96 min",
+    "img": "./images/Up (2009).jpg"
   },
   "valley girl": {
     "files": [
       "Valley Girl.mkv"
     ],
     "href": "http://imdb.com/title/tt0086525/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjA4NzI5OTgyMV5BMl5BanBnXkFtZTgwODgwNjU1MDE@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Valley Girl (1983)",
     "rating": "6.3",
-    "duration": "99 min"
+    "duration": "99 min",
+    "img": "./images/Valley Girl (1983).jpg"
   },
   "very young girls": {
     "files": [
       "Very_Young_Girls.mkv"
     ],
     "href": "http://imdb.com/title/tt1097268/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BODMyNTg0NjUzOV5BMl5BanBnXkFtZTgwNTc4NDUyMTE@._V1_SY132_CR5,0,89,132_AL_.jpg",
     "title": "Very Young Girls (2007)",
     "rating": "6.6",
-    "duration": "83 min"
+    "duration": "83 min",
+    "img": "./images/Very Young Girls (2007).jpg"
   },
   "waitress": {
     "files": [
       "Waitress.mkv"
     ],
     "href": "http://imdb.com/title/tt0473308/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTc4ODI2MjU2M15BMl5BanBnXkFtZTcwOTAzNzU0MQ@@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "Waitress (2007)",
     "rating": "7.1",
-    "duration": "108 min"
+    "duration": "108 min",
+    "img": "./images/Waitress (2007).jpg"
   },
   "when harry met sally": {
     "files": [
       "When Harry Met Sally.mkv"
     ],
     "href": "http://imdb.com/title/tt0098635/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMjE0ODEwNjM2NF5BMl5BanBnXkFtZTcwMjU2Mzg3NA@@._V1_SX89_AL_.jpg",
     "title": "When Harry Met Sally... (1989)",
     "rating": "7.6",
-    "duration": "96 min"
+    "duration": "96 min",
+    "img": "./images/When Harry Met Sally... (1989).jpg"
   },
   "while you were sleeping": {
     "files": [
@@ -814,19 +814,19 @@
       "While_You_Were_Sleeping_t01.mkv"
     ],
     "href": "http://imdb.com/title/tt0114924/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTU5NjU4NDUzMl5BMl5BanBnXkFtZTgwMjc4NDgzMTE@._V1_SY132_CR0,0,89,132_AL_.jpg",
     "title": "While You Were Sleeping (1995)",
     "rating": "6.6",
-    "duration": "103 min"
+    "duration": "103 min",
+    "img": "./images/While You Were Sleeping (1995).jpg"
   },
   "zombieland": {
     "files": [
       "Zombieland_t00.mkv"
     ],
     "href": "http://imdb.com/title/tt1156398/",
-    "img": "http://ia.media-imdb.com/images/M/MV5BMTU5MDg0NTQ1N15BMl5BanBnXkFtZTcwMjA4Mjg3Mg@@._V1_SY132_CR3,0,89,132_AL_.jpg",
     "title": "Zombieland (2009)",
     "rating": "7.7",
-    "duration": "88 min"
+    "duration": "88 min",
+    "img": "./images/Zombieland (2009).jpg"
   }
 }

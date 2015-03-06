@@ -64,11 +64,16 @@ async.eachSeries( Object.keys(movies)
           request url, (error, response, body) ->
             if !error and response.statusCode is 200
               $entryPage = love.load body
-              movies[entryName].href = url.replace("m.imdb", "imdb")
-              movies[entryName].img = $entryPage("img.media-object").first().attr("src")
-              movies[entryName].title = $entryPage(".media-body h1").text().replace(/[\s\n]+/g, " ").trim()
-              movies[entryName].rating = $entryPage("#ratings-bar").text().match(/([\d\.]+)\//)[1]
-              movies[entryName].duration = $entryPage(".infobar time").text().trim()
+              title = $entryPage(".media-body h1").text().replace(/[\s\n]+/g, " ").trim()
+              m = movies[entryName]
+              m.href = url.replace("m.imdb", "imdb")
+              m.title = title
+              m.rating = $entryPage("#ratings-bar").text().match(/([\d\.]+)\//)[1]
+              m.duration = $entryPage(".infobar time").text().trim()
+              img = $entryPage("img.media-object").first().attr("src")
+              ext = path.extname(img)
+              m.img = './images/' + title.replace(/[:\\\/\*\^~`?]+/g, "_") + ext
+              request.get(img).pipe(fs.createWriteStream(m.img))
               done()
 
             else

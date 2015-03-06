@@ -1,11 +1,16 @@
 
 //-movies = require("../movies.json")
 head
+  meta(charset="utf-8")
   style.
+    html { font-family: sans-serif }
+    body { text-align: center; margin: 0; padding: 0 1.5rem; }
     .movie {width: 9rem; height: 14rem; display: inline-block; }
     .movie {width: 9rem; height: 14rem; display: inline-block; }
     a.movie { color: black; text-decoration: none }
 body
+  header
+    h1 Cole's Movies
   - var movie;
   each movieKey in Object.keys(movies)
     - movie = movies[movieKey]
@@ -13,6 +18,7 @@ body
       a.movie(href=movie.href target="_blank")
         h3=movie.title
         img(src=movie.img)
-        p
+        div
           strong=movie.rating
           | /10
+        div=movie.duration
