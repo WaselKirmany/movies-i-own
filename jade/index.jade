@@ -15,7 +15,7 @@ body
   each movieKey in Object.keys(movies)
     - movie = movies[movieKey]
     if movie.href
-      a.movie(href=movie.href target="_blank")
+      a.movie(href=movie.href)
         h3=movie.title
         img(src=movie.img)
         div
