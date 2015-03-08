@@ -1,6 +1,6 @@
 imdb = require 'imdb-api'
 async = require 'async'
-love = require 'cheerio' 
+cheerio = require 'cheerio' 
 
 fs = require "fs"
 path = require "path"
@@ -9,8 +9,8 @@ dir = process.argv[2] || "./"
 arr = fs.readdirSync(dir)
 arr = arr.sort()
 
-nameRE = /([_\-\[\]\(\)]+|\.mkv|t\d+|Unrated|Diamond|Edition|Disc[_\- ]\d|title\d+|movies?)/ig
-titleIdRE = /tt(\d+)/
+fileNameExcludesRE = /([_\-\[\]\(\)]+|\.mkv|t\d+|Unrated|Diamond|Edition|Disc[_\- ]\d|title\d+|movies?)/ig
+imdbURLTitleIdRE = /tt(\d+)/
 
 makeSearchURL = (term) ->
   "http://m.imdb.com/find?q=" + term.replace(/[ _)(]+/g, "+")
@@ -21,7 +21,7 @@ makeMovieURL = (id) ->
 movies = {}
 
 for fileName in arr
-  entryName = fileName.replace(nameRE, " ").trim().toLowerCase()
+  entryName = fileName.replace(fileNameExcludesRE, " ").trim().toLowerCase()
   if not movies[entryName]?
     movies[entryName] = { files: [] }
 
@@ -30,40 +30,39 @@ for fileName in arr
 async.eachSeries( Object.keys(movies)
   , (entryName, done) ->
     console.log "Looking for " + entryName
-    year = entryName.match(/\d{4}/)
+    releaseYear = entryName.match(/\d{4}/)
     
     request makeSearchURL(entryName), (error, response, body) ->
       if !error and response.statusCode is 200
-        $searchResults = love.load body
+        $searchResults = cheerio.load body
         
-        elem = $searchResults(".posters .poster>.retina-capable")
-        titleId = null
-        useElem = elem.first()
-        elem.each (index, elem2) ->
-          elem2 = $searchResults elem2
-          if year?
-            if elem2.parent().find(".title").text().indexOf(year) isnt -1
-              useElem = elem2
-              return false
-
+        searchResultElems = $searchResults(".posters .poster")
+        foundMovieElem = null
+        if releaseYear?
+          searchResultElems.each (index, movieElem) ->
+            movieElem = $searchResults movieElem
             if index > 5
-              console.error "Couldn't find in results"
-              useElem = null
               return false
 
-        if useElem?
-          titleId = useElem.parent().find("a").attr("href")
-        
-        if !titleId
-          console.log "Error finding " + entryName
+            else if movieElem.find(".title").text().indexOf(releaseYear) isnt -1
+              foundMovieElem = movieElem
+              return false
+
+        else
+          foundMovieElem = searchResultElems.find(">.retina-capable").first().parent() 
+
+        if not foundMovieElem?
+          console.error "Error finding " + entryName
           done()
 
         else
-          id = titleId.match(titleIdRE)[1]
+          imdbMovieURL = foundMovieElem.find("a").attr("href")
+
+          id = imdbMovieURL.match(imdbURLTitleIdRE)[1]
           url = makeMovieURL(id)
           request url, (error, response, body) ->
             if !error and response.statusCode is 200
-              $entryPage = love.load body
+              $entryPage = cheerio.load body
               title = $entryPage(".media-body h1").text().replace(/[\s\n]+/g, " ").trim()
               m = movies[entryName]
               m.href = url.replace("m.imdb", "imdb")
@@ -77,7 +76,7 @@ async.eachSeries( Object.keys(movies)
               done()
 
             else
-              throw "Strange error"
+              throw "Error loading page"
 
       else
         console.log "Error trying to locate \"" + entryName + "\""
@@ -86,4 +85,3 @@ async.eachSeries( Object.keys(movies)
   , ->
     fs.writeFileSync "./movies.json", JSON.stringify(movies, null, 2)
 )
-#fs.writeSync "files.txt", arr.join("\n")
