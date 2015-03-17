@@ -1,0 +1,11 @@
+{
+  "name": "movies-i-own",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "async": "~0.9",
+    "cheerio": "~0.18",
+    "jade-to-static": "latest",
+    "request": "~2"
+  }
+}
