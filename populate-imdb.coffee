@@ -1,15 +1,7 @@
-imdb = require 'imdb-api'
 async = require 'async'
 cheerio = require 'cheerio' 
+request = require 'request'
 
-fs = require "fs"
-path = require "path"
-request = require('request')
-dir = process.argv[2] || "./"
-arr = fs.readdirSync(dir)
-arr = arr.sort()
-
-fileNameExcludesRE = /([_\-\[\]\(\)]+|\.mkv|t\d+|Unrated|Diamond|Edition|Disc[_\- ]\d|title\d+|movies?)/ig
 imdbURLTitleIdRE = /tt(\d+)/
 
 makeSearchURL = (term) ->
@@ -18,21 +10,14 @@ makeSearchURL = (term) ->
 makeMovieURL = (id) ->
   "http://m.imdb.com/title/tt" + id + "/"
 
-movies = {}
-
-for fileName in arr
-  entryName = fileName.replace(fileNameExcludesRE, " ").trim().toLowerCase()
-  if not movies[entryName]?
-    movies[entryName] = { files: [] }
-
-  movies[entryName].files.push fileName
+movies = require './_fileinfo.js'
 
 async.eachSeries( Object.keys(movies)
-  , (entryName, done) ->
-    console.log "Looking for " + entryName
-    releaseYear = entryName.match(/\d{4}/)
-    
-    request makeSearchURL(entryName), (error, response, body) ->
+  , (movieName, done) ->
+    console.log "Looking for " + movieName
+    releaseYear = movieName.match(/\d{4}/)
+
+    request makeSearchURL(movieName), (error, response, body) ->
       if !error and response.statusCode is 200
         $searchResults = cheerio.load body
         
@@ -52,7 +37,7 @@ async.eachSeries( Object.keys(movies)
           foundMovieElem = searchResultElems.find(">.retina-capable").first().parent() 
 
         if not foundMovieElem?
-          console.error "Error finding " + entryName
+          console.error "Error finding " + movieName
           done()
 
         else
@@ -64,7 +49,7 @@ async.eachSeries( Object.keys(movies)
             if !error and response.statusCode is 200
               $entryPage = cheerio.load body
               title = $entryPage(".media-body h1").text().replace(/[\s\n]+/g, " ").trim()
-              m = movies[entryName]
+              m = movies[movieName]
               m.href = url.replace("m.imdb", "imdb")
               m.title = title
               m.rating = $entryPage("#ratings-bar").text().match(/([\d\.]+)\//)[1]
@@ -79,7 +64,7 @@ async.eachSeries( Object.keys(movies)
               throw "Error loading page"
 
       else
-        console.log "Error trying to locate \"" + entryName + "\""
+        console.log "Error trying to locate \"" + movieName + "\""
         console.error error
         done()
   , ->
