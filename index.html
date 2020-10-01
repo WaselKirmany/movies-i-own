@@ -1,259 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8"/>
-  <style>
-    html { font-family: sans-serif }
-    body { text-align: center; margin: 0; padding: 0 1.5rem; }
-    .movie {width: 9rem; height: 14rem; display: inline-block; }
-    .movie {width: 9rem; height: 14rem; display: inline-block; }
-    a.movie { color: black; text-decoration: none }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+
+    <link rel="stylesheet" href="./dist/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./dist/css/owl.theme.default.css">
+    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dist/css/all.css">
 </head>
-<body>
-  <header>
-    <h1>Cole's Movies</h1>
-  </header><a href="http://imdb.com/title/tt0974661/" class="movie">
-    <h3>17 Again (2009)</h3><img src="./images/17 Again (2009).jpg"/>
-    <div><strong>6.4</strong>/10</div>
-    <div>102 min</div></a><a href="http://imdb.com/title/tt0043274/" class="movie">
-    <h3>Alice in Wonderland (1951)</h3><img src="./images/Alice in Wonderland (1951).jpg"/>
-    <div><strong>7.4</strong>/10</div>
-    <div>75 min</div></a><a href="http://imdb.com/title/tt1014759/" class="movie">
-    <h3>Alice in Wonderland (I) (2010)</h3><img src="./images/Alice in Wonderland (I) (2010).jpg"/>
-    <div><strong>6.5</strong>/10</div>
-    <div>108 min</div></a><a href="http://imdb.com/title/tt0221027/" class="movie">
-    <h3>Blow (2001)</h3><img src="./images/Blow (2001).jpg"/>
-    <div><strong>7.6</strong>/10</div>
-    <div>124 min</div></a><a href="http://imdb.com/title/tt0372784/" class="movie">
-    <h3>Batman Begins (2005)</h3><img src="./images/Batman Begins (2005).jpg"/>
-    <div><strong>8.3</strong>/10</div>
-    <div>140 min</div></a><a href="http://imdb.com/title/tt0101414/" class="movie">
-    <h3>Beauty and the Beast (1991)</h3><img src="./images/Beauty and the Beast (1991).jpg"/>
-    <div><strong>8.1</strong>/10</div>
-    <div>84 min</div></a><a href="http://imdb.com/title/tt0094721/" class="movie">
-    <h3>Beetlejuice (1988)</h3><img src="./images/Beetlejuice (1988).jpg"/>
-    <div><strong>7.4</strong>/10</div>
-    <div>92 min</div></a><a href="http://imdb.com/title/tt1217209/" class="movie">
-    <h3>Brave (2012)</h3><img src="./images/Brave (2012).jpg"/>
-    <div><strong>7.2</strong>/10</div>
-    <div>93 min</div></a><a href="http://imdb.com/title/tt1478338/" class="movie">
-    <h3>Bridesmaids (I) (2011)</h3><img src="./images/Bridesmaids (I) (2011).jpg"/>
-    <div><strong>6.8</strong>/10</div>
-    <div>125 min</div></a><a href="http://imdb.com/title/tt0367594/" class="movie">
-    <h3>Charlie and the Chocolate Factory (2005)</h3><img src="./images/Charlie and the Chocolate Factory (2005).jpg"/>
-    <div><strong>6.7</strong>/10</div>
-    <div>115 min</div></a><a href="http://imdb.com/title/tt0042332/" class="movie">
-    <h3>Cinderella (1950)</h3><img src="./images/Cinderella (1950).jpg"/>
-    <div><strong>7.3</strong>/10</div>
-    <div>74 min</div></a><a href="http://imdb.com/title/tt0327597/" class="movie">
-    <h3>Coraline (2009)</h3><img src="./images/Coraline (2009).jpg"/>
-    <div><strong>7.7</strong>/10</div>
-    <div>100 min</div></a><a href="http://imdb.com/title/tt1690953/" class="movie">
-    <h3>Despicable Me 2 (2013)</h3><img src="./images/Despicable Me 2 (2013).jpg"/>
-    <div><strong>7.5</strong>/10</div>
-    <div>98 min</div></a><a href="http://imdb.com/title/tt1323594/" class="movie">
-    <h3>Despicable Me (2010)</h3><img src="./images/Despicable Me (2010).jpg"/>
-    <div><strong>7.7</strong>/10</div>
-    <div>95 min</div></a><a href="http://imdb.com/title/tt1482459/" class="movie">
-    <h3>The Lorax (2012)</h3><img src="./images/The Lorax (2012).jpg"/>
-    <div><strong>6.5</strong>/10</div>
-    <div>86 min</div></a><a href="http://imdb.com/title/tt0033563/" class="movie">
-    <h3>Dumbo (1941)</h3><img src="./images/Dumbo (1941).jpg"/>
-    <div><strong>7.3</strong>/10</div>
-    <div>64 min</div></a><a href="http://imdb.com/title/tt0109707/" class="movie">
-    <h3>Ed Wood (1994)</h3><img src="./images/Ed Wood (1994).jpg"/>
-    <div><strong>7.9</strong>/10</div>
-    <div>127 min</div></a><a href="http://imdb.com/title/tt0099487/" class="movie">
-    <h3>Edward Scissorhands (1990)</h3><img src="./images/Edward Scissorhands (1990).jpg"/>
-    <div><strong>8</strong>/10</div>
-    <div>105 min</div></a><a href="http://imdb.com/title/tt0461770/" class="movie">
-    <h3>Enchanted (2007)</h3><img src="./images/Enchanted (2007).jpg"/>
-    <div><strong>7.2</strong>/10</div>
-    <div>107 min</div></a><a href="http://imdb.com/title/tt0266543/" class="movie">
-    <h3>Finding Nemo (2003)</h3><img src="./images/Finding Nemo (2003).jpg"/>
-    <div><strong>8.2</strong>/10</div>
-    <div>100 min</div></a><a href="http://imdb.com/title/tt0119217/" class="movie">
-    <h3>Good Will Hunting (1997)</h3><img src="./images/Good Will Hunting (1997).jpg"/>
-    <div><strong>8.3</strong>/10</div>
-    <div>126 min</div></a><a href="http://imdb.com/title/tt2015381/" class="movie">
-    <h3>Guardians of the Galaxy (2014)</h3><img src="./images/Guardians of the Galaxy (2014).jpg"/>
-    <div><strong>8.2</strong>/10</div>
-    <div>121 min</div></a><a href="http://imdb.com/title/tt2243973/" class="movie">
-    <h3>Hannibal (2013– )</h3><img src="./images/Hannibal (2013– ).jpg"/>
-    <div><strong>8.6</strong>/10</div>
-    <div>44 min</div></a><a href="http://imdb.com/title/tt0425112/" class="movie">
-    <h3>Hot Fuzz (2007)</h3><img src="./images/Hot Fuzz (2007).jpg"/>
-    <div><strong>7.9</strong>/10</div>
-    <div>121 min</div></a><a href="http://imdb.com/title/tt0970179/" class="movie">
-    <h3>Hugo (2011)</h3><img src="./images/Hugo (2011).jpg"/>
-    <div><strong>7.6</strong>/10</div>
-    <div>126 min</div></a><a href="http://imdb.com/title/tt0887912/" class="movie">
-    <h3>The Hurt Locker (2008)</h3><img src="./images/The Hurt Locker (2008).jpg"/>
-    <div><strong>7.6</strong>/10</div>
-    <div>131 min</div></a><a href="http://imdb.com/title/tt1375666/" class="movie">
-    <h3>Inception (2010)</h3><img src="./images/Inception (2010).jpg"/>
-    <div><strong>8.8</strong>/10</div>
-    <div>148 min</div></a><a href="http://imdb.com/title/tt0371746/" class="movie">
-    <h3>Iron Man (2008)</h3><img src="./images/Iron Man (2008).jpg"/>
-    <div><strong>7.9</strong>/10</div>
-    <div>126 min</div></a><a href="http://imdb.com/title/tt1772925/" class="movie">
-    <h3>Jiro Dreams of Sushi (2011)</h3><img src="./images/Jiro Dreams of Sushi (2011).jpg"/>
-    <div><strong>7.9</strong>/10</div>
-    <div>81 min</div></a><a href="http://imdb.com/title/tt0099871/" class="movie">
-    <h3>Jacob's Ladder (I) (1990)</h3><img src="./images/Jacob's Ladder (I) (1990).jpg"/>
-    <div><strong>7.6</strong>/10</div>
-    <div>113 min</div></a><a href="http://imdb.com/title/tt0048280/" class="movie">
-    <h3>Lady and the Tramp (1955)</h3><img src="./images/Lady and the Tramp (1955).jpg"/>
-    <div><strong>7.4</strong>/10</div>
-    <div>76 min</div></a><a href="http://imdb.com/title/tt1707386/" class="movie">
-    <h3>Les Misérables (2012)</h3><img src="./images/Les Misérables (2012).jpg"/>
-    <div><strong>7.7</strong>/10</div>
-    <div>158 min</div></a><a href="http://imdb.com/title/tt0454876/" class="movie">
-    <h3>Life of Pi (2012)</h3><img src="./images/Life of Pi (2012).jpg"/>
-    <div><strong>8</strong>/10</div>
-    <div>127 min</div></a><a href="http://imdb.com/title/tt0449059/" class="movie">
-    <h3>Little Miss Sunshine (2006)</h3><img src="./images/Little Miss Sunshine (2006).jpg"/>
-    <div><strong>7.9</strong>/10</div>
-    <div>101 min</div></a><a href="http://imdb.com/title/tt0770828/" class="movie">
-    <h3>Man of Steel (2013)</h3><img src="./images/Man of Steel (2013).jpg"/>
-    <div><strong>7.2</strong>/10</div>
-    <div>143 min</div></a><a href="http://imdb.com/title/tt1210166/" class="movie">
-    <h3>Moneyball (2011)</h3><img src="./images/Moneyball (2011).jpg"/>
-    <div><strong>7.6</strong>/10</div>
-    <div>133 min</div></a><a href="http://imdb.com/title/tt0198781/" class="movie">
-    <h3>Monsters, Inc. (2001)</h3><img src="./images/Monsters, Inc. (2001).jpg"/>
-    <div><strong>8.1</strong>/10</div>
-    <div>92 min</div></a><a href="http://imdb.com/title/tt0087800/" class="movie">
-    <h3>A Nightmare on Elm Street (1984)</h3><img src="./images/A Nightmare on Elm Street (1984).jpg"/>
-    <div><strong>7.5</strong>/10</div>
-    <div>91 min</div></a><a href="http://imdb.com/title/tt0089841/" class="movie">
-    <h3>Prizzi's Honor (1985)</h3><img src="./images/Prizzi's Honor (1985).jpg"/>
-    <div><strong>6.8</strong>/10</div>
-    <div>130 min</div></a><a href="http://imdb.com/title/tt0089791/" class="movie">
-    <h3>Pee-wee's Big Adventure (1985)</h3><img src="./images/Pee-wee's Big Adventure (1985).jpg"/>
-    <div><strong>7</strong>/10</div>
-    <div>91 min</div></a><a href="http://imdb.com/title/tt0177971/" class="movie">
-    <h3>The Perfect Storm (2000)</h3><img src="./images/The Perfect Storm (2000).jpg"/>
-    <div><strong>6.4</strong>/10</div>
-    <div>130 min</div></a><a href="http://imdb.com/title/tt0046183/" class="movie">
-    <h3>Peter Pan (1953)</h3><img src="./images/Peter Pan (1953).jpg"/>
-    <div><strong>7.4</strong>/10</div>
-    <div>77 min</div></a><a href="http://imdb.com/title/tt0032910/" class="movie">
-    <h3>Pinocchio (1940)</h3><img src="./images/Pinocchio (1940).jpg"/>
-    <div><strong>7.5</strong>/10</div>
-    <div>88 min</div></a><a href="http://imdb.com/title/tt0876563/" class="movie">
-    <h3>Ponyo (2008)</h3><img src="./images/Ponyo (2008).jpg"/>
-    <div><strong>7.7</strong>/10</div>
-    <div>101 min</div></a><a href="http://imdb.com/title/tt0091790/" class="movie">
-    <h3>Pretty in Pink (1986)</h3><img src="./images/Pretty in Pink (1986).jpg"/>
-    <div><strong>6.7</strong>/10</div>
-    <div>96 min</div></a><a href="http://imdb.com/title/tt0454921/" class="movie">
-    <h3>The Pursuit of Happyness (2006)</h3><img src="./images/The Pursuit of Happyness (2006).jpg"/>
-    <div><strong>7.9</strong>/10</div>
-    <div>117 min</div></a><a href="http://imdb.com/title/tt0382932/" class="movie">
-    <h3>Ratatouille (2007)</h3><img src="./images/Ratatouille (2007).jpg"/>
-    <div><strong>8</strong>/10</div>
-    <div>111 min</div></a><a href="http://imdb.com/title/tt0267913/" class="movie">
-    <h3>Scooby-Doo (2002)</h3><img src="./images/Scooby-Doo (2002).jpg"/>
-    <div><strong>4.9</strong>/10</div>
-    <div>86 min</div></a><a href="http://imdb.com/title/tt0814314/" class="movie">
-    <h3>Seven Pounds (2008)</h3><img src="./images/Seven Pounds (2008).jpg"/>
-    <div><strong>7.7</strong>/10</div>
-    <div>123 min</div></a><a href="http://imdb.com/title/tt0365748/" class="movie">
-    <h3>Shaun of the Dead (2004)</h3><img src="./images/Shaun of the Dead (2004).jpg"/>
-    <div><strong>8</strong>/10</div>
-    <div>99 min</div></a><a href="http://imdb.com/title/tt1130884/" class="movie">
-    <h3>Shutter Island (2010)</h3><img src="./images/Shutter Island (2010).jpg"/>
-    <div><strong>8.1</strong>/10</div>
-    <div>138 min</div></a><a href="http://imdb.com/title/tt0167404/" class="movie">
-    <h3>The Sixth Sense (1999)</h3><img src="./images/The Sixth Sense (1999).jpg"/>
-    <div><strong>8.2</strong>/10</div>
-    <div>107 min</div></a><a href="http://imdb.com/title/tt1735898/" class="movie">
-    <h3>Snow White and the Huntsman (2012)</h3><img src="./images/Snow White and the Huntsman (2012).jpg"/>
-    <div><strong>6.2</strong>/10</div>
-    <div>127 min</div></a><a href="http://imdb.com/title/tt0206512/" class="movie">
-    <h3>SpongeBob SquarePants (1999– )</h3><img src="./images/SpongeBob SquarePants (1999– ).jpg"/>
-    <div><strong>8.1</strong>/10</div>
-    <div>30 min</div></a><a href="http://imdb.com/title/tt0090060/" class="movie">
-    <h3>St. Elmo's Fire (1985)</h3><img src="./images/St. Elmo's Fire (1985).jpg"/>
-    <div><strong>6.3</strong>/10</div>
-    <div>110 min</div></a><a href="http://imdb.com/title/tt0838283/" class="movie">
-    <h3>Step Brothers (2008)</h3><img src="./images/Step Brothers (2008).jpg"/>
-    <div><strong>6.9</strong>/10</div>
-    <div>98 min</div></a><a href="http://imdb.com/title/tt0407887/" class="movie">
-    <h3>The Departed (2006)</h3><img src="./images/The Departed (2006).jpg"/>
-    <div><strong>8.5</strong>/10</div>
-    <div>151 min</div></a><a href="http://imdb.com/title/tt1278469/" class="movie">
-    <h3>Temple Grandin (2010)</h3><img src="./images/Temple Grandin (2010).jpg"/>
-    <div><strong>8.4</strong>/10</div>
-    <div>107 min</div></a><a href="http://imdb.com/title/tt2375605/" class="movie">
-    <h3>The Act of Killing (2012)</h3><img src="./images/The Act of Killing (2012).jpg"/>
-    <div><strong>8.2</strong>/10</div>
-    <div>115 min</div></a><a href="http://imdb.com/title/tt0306414/" class="movie">
-    <h3>The Wire (2002–2008)</h3><img src="./images/The Wire (2002–2008).jpg"/>
-    <div><strong>9.4</strong>/10</div>
-    <div>55 min</div></a><a href="http://imdb.com/title/tt0878804/" class="movie">
-    <h3>The Blind Side (2009)</h3><img src="./images/The Blind Side (2009).jpg"/>
-    <div><strong>7.7</strong>/10</div>
-    <div>129 min</div></a><a href="http://imdb.com/title/tt0258463/" class="movie">
-    <h3>The Bourne Identity (2002)</h3><img src="./images/The Bourne Identity (2002).jpg"/>
-    <div><strong>7.9</strong>/10</div>
-    <div>119 min</div></a><a href="http://imdb.com/title/tt0372183/" class="movie">
-    <h3>The Bourne Supremacy (2004)</h3><img src="./images/The Bourne Supremacy (2004).jpg"/>
-    <div><strong>7.8</strong>/10</div>
-    <div>108 min</div></a><a href="http://imdb.com/title/tt0440963/" class="movie">
-    <h3>The Bourne Ultimatum (2007)</h3><img src="./images/The Bourne Ultimatum (2007).jpg"/>
-    <div><strong>8.1</strong>/10</div>
-    <div>115 min</div></a><a href="http://imdb.com/title/tt0468569/" class="movie">
-    <h3>The Dark Knight (2008)</h3><img src="./images/The Dark Knight (2008).jpg"/>
-    <div><strong>9</strong>/10</div>
-    <div>152 min</div></a><a href="http://imdb.com/title/tt0435651/" class="movie">
-    <h3>The Giver (2014)</h3><img src="./images/The Giver (2014).jpg"/>
-    <div><strong>6.5</strong>/10</div>
-    <div>97 min</div></a><a href="http://imdb.com/title/tt0317705/" class="movie">
-    <h3>The Incredibles (2004)</h3><img src="./images/The Incredibles (2004).jpg"/>
-    <div><strong>8</strong>/10</div>
-    <div>115 min</div></a><a href="http://imdb.com/title/tt0298130/" class="movie">
-    <h3>The Ring (2002)</h3><img src="./images/The Ring (2002).jpg"/>
-    <div><strong>7.1</strong>/10</div>
-    <div>115 min</div></a><a href="http://imdb.com/title/tt0120363/" class="movie">
-    <h3>Toy Story 2 (1999)</h3><img src="./images/Toy Story 2 (1999).jpg"/>
-    <div><strong>7.9</strong>/10</div>
-    <div>92 min</div></a><a href="http://imdb.com/title/tt0435761/" class="movie">
-    <h3>Toy Story 3 (2010)</h3><img src="./images/Toy Story 3 (2010).jpg"/>
-    <div><strong>8.4</strong>/10</div>
-    <div>103 min</div></a><a href="http://imdb.com/title/tt0114709/" class="movie">
-    <h3>Toy Story (1995)</h3><img src="./images/Toy Story (1995).jpg"/>
-    <div><strong>8.3</strong>/10</div>
-    <div>81 min</div></a><a href="http://imdb.com/title/tt0086465/" class="movie">
-    <h3>Trading Places (1983)</h3><img src="./images/Trading Places (1983).jpg"/>
-    <div><strong>7.5</strong>/10</div>
-    <div>116 min</div></a><a href="http://imdb.com/title/tt1104001/" class="movie">
-    <h3>TRON: Legacy (2010)</h3><img src="./images/TRON_ Legacy (2010).jpg"/>
-    <div><strong>6.8</strong>/10</div>
-    <div>125 min</div></a><a href="http://imdb.com/title/tt0217869/" class="movie">
-    <h3>Unbreakable (2000)</h3><img src="./images/Unbreakable (2000).jpg"/>
-    <div><strong>7.2</strong>/10</div>
-    <div>106 min</div></a><a href="http://imdb.com/title/tt1049413/" class="movie">
-    <h3>Up (2009)</h3><img src="./images/Up (2009).jpg"/>
-    <div><strong>8.3</strong>/10</div>
-    <div>96 min</div></a><a href="http://imdb.com/title/tt0086525/" class="movie">
-    <h3>Valley Girl (1983)</h3><img src="./images/Valley Girl (1983).jpg"/>
-    <div><strong>6.3</strong>/10</div>
-    <div>99 min</div></a><a href="http://imdb.com/title/tt1097268/" class="movie">
-    <h3>Very Young Girls (2007)</h3><img src="./images/Very Young Girls (2007).jpg"/>
-    <div><strong>6.6</strong>/10</div>
-    <div>83 min</div></a><a href="http://imdb.com/title/tt0473308/" class="movie">
-    <h3>Waitress (2007)</h3><img src="./images/Waitress (2007).jpg"/>
-    <div><strong>7.1</strong>/10</div>
-    <div>108 min</div></a><a href="http://imdb.com/title/tt0098635/" class="movie">
-    <h3>When Harry Met Sally... (1989)</h3><img src="./images/When Harry Met Sally... (1989).jpg"/>
-    <div><strong>7.6</strong>/10</div>
-    <div>96 min</div></a><a href="http://imdb.com/title/tt0114924/" class="movie">
-    <h3>While You Were Sleeping (1995)</h3><img src="./images/While You Were Sleeping (1995).jpg"/>
-    <div><strong>6.6</strong>/10</div>
-    <div>103 min</div></a><a href="http://imdb.com/title/tt1156398/" class="movie">
-    <h3>Zombieland (2009)</h3><img src="./images/Zombieland (2009).jpg"/>
-    <div><strong>7.7</strong>/10</div>
-    <div>88 min</div></a>
+
+<body style="background-color:yellow;">
+<
+    <div class="banner">
+        <!-- start navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Mov<span>ies</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="col-12 col-md-9 mb-lg-0 mb-3">
+                        <form action="" method="POST">
+                            <div class="input-group">
+                                <input type="text" class="form-control bg-transparent border-0" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <span class="input-group-text bg-transparent border-0" id="basic-addon2"><i class="fas fa-search text-primary"></i></span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <ul class="navbar-nav ml-auto">
+                        <a class="btn btn-primary mr-0 mr-lg-3 mb-lg-0 mb-3" href="register.html">Register</span></a>
+                        <a class="btn btn-outline-primary" href="login.html">Login</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end navbar -->
+
+        <div class="movies owl-carousel">
+            <div class="movie d-flex justify-content-center align-items-center item">
+                <div class="movie__bg" style="background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.7)), url('dist/images/bg-site.jpg') no-repeat; background-size: cover"> </div>
+                <div class="container">
+                    <div class="row my-8">
+                        <div class="col-lg-6 ">
+                            <div class="d-flex justify-content-between">
+                                <h1 class="moive__name text-white text-capitalize">Avenger</h1>
+                                <div class="movie__year align-self-center">2017</div>
+                            </div>
+                            <div class="d-flex move__star mb-2">
+                                <div class="d-flex my-2">
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <span class="align-self-center">8.7</s>
+                                </div>
+                            </div>
+                            <p>Marvel's The Avengers (classified under the name Marvel Avengers Assemble in the United Kingdom and Ireland), or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics superhero team of the same name.</p>
+                            <div class="movie__cta my-2">
+                                <a href="#" class="btn btn-outline-primary"><i class="fas fa-heart"></i> Add to favourite</a>
+                                <a href="#" class="btn btn-primary"><i class="fas fa-play"></i> Watch now</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-flex justify-content-center">
+                            <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+                        <div class="col-6 col-lg-6 mx-auto m-md-auto d-flex justify-content-center mb-4">
+                            <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- end movies -->
+    </div>
+    <!-- end banner -->
+    <div class="listing py-5">
+        <div class="container">
+            <div class="row justify-content-between my-4">
+                <h3 class="listing__title text-white">Dram</h3>
+                <a href="#" class="text-primary text-capitalize">see all</a>
+            </div>
+            <div class="owl-carousel owl-theme movies">
+                   
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">Kabir Singh</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+							<head>
+							  <meta charset="utf-8"/>
+							  <style>
+								html { font-family: sans-serif }
+								body { text-align: center; margin: 0; padding: 0 1.5rem; }
+								.movie {width: 9rem; height: 14rem; display: inline-block; }
+								.movie {width: 9rem; height: 14rem; display: inline-block; }
+								a.movie { color: black; text-decoration: none }
+							  </style>
+							</head>
+							<body>
+							  <header>
+								<h1>Cole's Movies</h1>
+							  </header><a href="http://imdb.com/title/tt0974661/" class="movie">
+								<h3>17 Again (2009)</h3><img src="./images/17 Again (2009).jpg"/>
+								<div><strong>6.4</strong>/10</div>
+								<div>102 min</div></a><a href="http://imdb.com/title/tt0043274/" class="movie">
+								<h3>Alice in Wonderland (1951)</h3><img src="./images/Alice in Wonderland (1951).jpg"/>
+								<div><strong>7.4</strong>/10</div>
+								<div>75 min</div></a><a href="http://imdb.com/title/tt1014759/" class="movie">
+								<h3>Alice in Wonderland (I) (2010)</h3><img src="./images/Alice in Wonderland (I) (2010).jpg"/>
+								<div><strong>6.5</strong>/10</div>
+								<div>108 min</div></a><a href="http://imdb.com/title/tt0221027/" class="movie">
+								<h3>Blow (2001)</h3><img src="./images/Blow (2001).jpg"/>
+								<div><strong>7.6</strong>/10</div>
+								<div>124 min</div></a><a href="http://imdb.com/title/tt0372784/" class="movie">
+								<h3>Batman Begins (2005)</h3><img src="./images/Batman Begins (2005).jpg"/>
+								<div><strong>8.3</strong>/10</div>
+								<div>140 min</div></a><a href="http://imdb.com/title/tt0101414/" class="movie">
+								<h3>Beauty and the Beast (1991)</h3><img src="./images/Beauty and the Beast (1991).jpg"/>
+								<div><strong>8.1</strong>/10</div>
+								<div>84 min</div></a><a href="http://imdb.com/title/tt0094721/" class="movie">
+								<h3>Beetlejuice (1988)</h3><img src="./images/Beetlejuice (1988).jpg"/>
+								<div><strong>7.4</strong>/10</div>
+								<div>92 min</div></a><a href="http://imdb.com/title/tt1217209/" class="movie">
+								<h3>Brave (2012)</h3><img src="./images/Brave (2012).jpg"/>
+								<div><strong>7.2</strong>/10</div>
+								<div>93 min</div></a><a href="http://imdb.com/title/tt1478338/" class="movie">
+								<h3>Bridesmaids (I) (2011)</h3><img src="./images/Bridesmaids (I) (2011).jpg"/>
+								<div><strong>6.8</strong>/10</div>
+								<div>125 min</div></a><a href="http://imdb.com/title/tt0367594/" class="movie">
+								<h3>Charlie and the Chocolate Factory (2005)</h3><img src="./images/Charlie and the Chocolate Factory (2005).jpg"/>
+								<div><strong>6.7</strong>/10</div>
+								<div>115 min</div></a><a href="http://imdb.com/title/tt0042332/" class="movie">
+								<h3>Cinderella (1950)</h3><img src="./images/Cinderella (1950).jpg"/>
+								<div><strong>7.3</strong>/10</div>
+								<div>74 min</div></a><a href="http://imdb.com/title/tt0327597/" class="movie">
+								<h3>Coraline (2009)</h3><img src="./images/Coraline (2009).jpg"/>
+								<div><strong>7.7</strong>/10</div>
+								<div>100 min</div></a><a href="http://imdb.com/title/tt1690953/" class="movie">
+								<h3>Despicable Me 2 (2013)</h3><img src="./images/Despicable Me 2 (2013).jpg"/>
+								<div><strong>7.5</strong>/10</div>
+								<div>98 min</div></a><a href="http://imdb.com/title/tt1323594/" class="movie">
+								<h3>Despicable Me (2010)</h3><img src="./images/Despicable Me (2010).jpg"/>
+								<div><strong>7.7</strong>/10</div>
+								<div>95 min</div></a><a href="http://imdb.com/title/tt1482459/" class="movie">
+								<h3>The Lorax (2012)</h3><img src="./images/The Lorax (2012).jpg"/>
+								<div><strong>6.5</strong>/10</div>
+								<div>86 min</div></a><a href="http://imdb.com/title/tt0033563/" class="movie">
+								<h3>Dumbo (1941)</h3><img src="./images/Dumbo (1941).jpg"/>
+								<div><strong>7.3</strong>/10</div>
+								<div>64 min</div></a><a href="http://imdb.com/title/tt0109707/" class="movie">
+								<h3>Ed Wood (1994)</h3><img src="./images/Ed Wood (1994).jpg"/>
+								<div><strong>7.9</strong>/10</div>
+								<div>127 min</div></a><a href="http://imdb.com/title/tt0099487/" class="movie">
+								<h3>Edward Scissorhands (1990)</h3><img src="./images/Edward Scissorhands (1990).jpg"/>
+								<div><strong>8</strong>/10</div>
+								<div>105 min</div></a><a href="http://imdb.com/title/tt0461770/" class="movie">
+								<h3>Enchanted (2007)</h3><img src="./images/Enchanted (2007).jpg"/>
+								<div><strong>7.2</strong>/10</div>
+								<div>107 min</div></a><a href="http://imdb.com/title/tt0266543/" class="movie">
+								<h3>Finding Nemo (2003)</h3><img src="./images/Finding Nemo (2003).jpg"/>
+								<div><strong>8.2</strong>/10</div>
+								<div>100 min</div></a><a href="http://imdb.com/title/tt0119217/" class="movie">
+								<h3>Good Will Hunting (1997)</h3><img src="./images/Good Will Hunting (1997).jpg"/>
+								<div><strong>8.3</strong>/10</div>
+								<div>126 min</div></a><a href="http://imdb.com/title/tt2015381/" class="movie">
+								<h3>Guardians of the Galaxy (2014)</h3><img src="./images/Guardians of the Galaxy (2014).jpg"/>
+								<div><strong>8.2</strong>/10</div>
+								<div>121 min</div></a><a href="http://imdb.com/title/tt2243973/" class="movie">
+								<h3>Hannibal (2013– )</h3><img src="./images/Hannibal (2013– ).jpg"/>
+								<div><strong>8.6</strong>/10</div>
+								<div>44 min</div></a><a href="http://imdb.com/title/tt0425112/" class="movie">
+								<h3>Hot Fuzz (2007)</h3><img src="./images/Hot Fuzz (2007).jpg"/>
+								<div><strong>7.9</strong>/10</div>
+								<div>121 min</div></a><a href="http://imdb.com/title/tt0970179/" class="movie">
+								<h3>Hugo (2011)</h3><img src="./images/Hugo (2011).jpg"/>
+								<div><strong>7.6</strong>/10</div>
+								<div>126 min</div></a><a href="http://imdb.com/title/tt0887912/" class="movie">
+								<h3>The Hurt Locker (2008)</h3><img src="./images/The Hurt Locker (2008).jpg"/>
+								<div><strong>7.6</strong>/10</div>
+								<div>131 min</div></a><a href="http://imdb.com/title/tt1375666/" class="movie">
+								<h3>Inception (2010)</h3><img src="./images/Inception (2010).jpg"/>
+								<div><strong>8.8</strong>/10</div>
+								<div>148 min</div></a><a href="http://imdb.com/title/tt0371746/" class="movie">
+								<h3>Iron Man (2008)</h3><img src="./images/Iron Man (2008).jpg"/>
+								<div><strong>7.9</strong>/10</div>
+								<div>126 min</div></a><a href="http://imdb.com/title/tt1772925/" class="movie">
+								<h3>Jiro Dreams of Sushi (2011)</h3><img src="./images/Jiro Dreams of Sushi (2011).jpg"/>
+								<div><strong>7.9</strong>/10</div>
+								<div>81 min</div></a><a href="http://imdb.com/title/tt0099871/" class="movie">
+								<h3>Jacob's Ladder (I) (1990)</h3><img src="./images/Jacob's Ladder (I) (1990).jpg"/>
+								<div><strong>7.6</strong>/10</div>
+								<div>113 min</div></a><a href="http://imdb.com/title/tt0048280/" class="movie">
+								<h3>Lady and the Tramp (1955)</h3><img src="./images/Lady and the Tramp (1955).jpg"/>
+								<div><strong>7.4</strong>/10</div>
+								<div>76 min</div></a><a href="http://imdb.com/title/tt1707386/" class="movie">
+								<h3>Les Misérables (2012)</h3><img src="./images/Les Misérables (2012).jpg"/>
+								<div><strong>7.7</strong>/10</div>
+								<div>158 min</div></a><a href="http://imdb.com/title/tt0454876/" class="movie">
+								<h3>Life of Pi (2012)</h3><img src="./images/Life of Pi (2012).jpg"/>
+								<div><strong>8</strong>/10</div>
+								<div>127 min</div></a><a href="http://imdb.com/title/tt0449059/" class="movie">
+								<h3>Little Miss Sunshine (2006)</h3><img src="./images/Little Miss Sunshine (2006).jpg"/>
+								<div><strong>7.9</strong>/10</div>
+								<div>101 min</div></a><a href="http://imdb.com/title/tt0770828/" class="movie">
+								<h3>Man of Steel (2013)</h3><img src="./images/Man of Steel (2013).jpg"/>
+								<div><strong>7.2</strong>/10</div>
+								<div>143 min</div></a><a href="http://imdb.com/title/tt1210166/" class="movie">
+								<h3>Moneyball (2011)</h3><img src="./images/Moneyball (2011).jpg"/>
+								<div><strong>7.6</strong>/10</div>
+								<div>133 min</div></a><a href="http://imdb.com/title/tt0198781/" class="movie">
+								<h3>Monsters, Inc. (2001)</h3><img src="./images/Monsters, Inc. (2001).jpg"/>
+								<div><strong>8.1</strong>/10</div>
+								<div>92 min</div></a><a href="http://imdb.com/title/tt0087800/" class="movie">
+								<h3>A Nightmare on Elm Street (1984)</h3><img src="./images/A Nightmare on Elm Street (1984).jpg"/>
+								<div><strong>7.5</strong>/10</div>
+								<div>91 min</div></a><a href="http://imdb.com/title/tt0089841/" class="movie">
+								<h3>Prizzi's Honor (1985)</h3><img src="./images/Prizzi's Honor (1985).jpg"/>
+								<div><strong>6.8</strong>/10</div>
+								<div>130 min</div></a><a href="http://imdb.com/title/tt0089791/" class="movie">
+								<h3>Pee-wee's Big Adventure (1985)</h3><img src="./images/Pee-wee's Big Adventure (1985).jpg"/>
+								<div><strong>7</strong>/10</div>
+								<div>91 min</div></a><a href="http://imdb.com/title/tt0177971/" class="movie">
+								<h3>The Perfect Storm (2000)</h3><img src="./images/The Perfect Storm (2000).jpg"/>
+								<div><strong>6.4</strong>/10</div>
+								<div>130 min</div></a><a href="http://imdb.com/title/tt0046183/" class="movie">
+								<h3>Peter Pan (1953)</h3><img src="./images/Peter Pan (1953).jpg"/>
+								<div><strong>7.4</strong>/10</div>
+								<div>77 min</div></a><a href="http://imdb.com/title/tt0032910/" class="movie">
+								<h3>Pinocchio (1940)</h3><img src="./images/Pinocchio (1940).jpg"/>
+								<div><strong>7.5</strong>/10</div>
+								<div>88 min</div></a><a href="http://imdb.com/title/tt0876563/" class="movie">
+								<h3>Ponyo (2008)</h3><img src="./images/Ponyo (2008).jpg"/>
+								<div><strong>7.7</strong>/10</div>
+								<div>101 min</div></a><a href="http://imdb.com/title/tt0091790/" class="movie">
+								<h3>Pretty in Pink (1986)</h3><img src="./images/Pretty in Pink (1986).jpg"/>
+								<div><strong>6.7</strong>/10</div>
+								<div>96 min</div></a><a href="http://imdb.com/title/tt0454921/" class="movie">
+								<h3>The Pursuit of Happyness (2006)</h3><img src="./images/The Pursuit of Happyness (2006).jpg"/>
+								<div><strong>7.9</strong>/10</div>
+								<div>117 min</div></a><a href="http://imdb.com/title/tt0382932/" class="movie">
+								<h3>Ratatouille (2007)</h3><img src="./images/Ratatouille (2007).jpg"/>
+								<div><strong>8</strong>/10</div>
+								<div>111 min</div></a><a href="http://imdb.com/title/tt0267913/" class="movie">
+								<h3>Scooby-Doo (2002)</h3><img src="./images/Scooby-Doo (2002).jpg"/>
+								<div><strong>4.9</strong>/10</div>
+								<div>86 min</div></a><a href="http://imdb.com/title/tt0814314/" class="movie">
+								<h3>Seven Pounds (2008)</h3><img src="./images/Seven Pounds (2008).jpg"/>
+								<div><strong>7.7</strong>/10</div>
+								<div>123 min</div></a><a href="http://imdb.com/title/tt0365748/" class="movie">
+								<h3>Shaun of the Dead (2004)</h3><img src="./images/Shaun of the Dead (2004).jpg"/>
+								<div><strong>8</strong>/10</div>
+								<div>99 min</div></a><a href="http://imdb.com/title/tt1130884/" class="movie">
+								<h3>Shutter Island (2010)</h3><img src="./images/Shutter Island (2010).jpg"/>
+								<div><strong>8.1</strong>/10</div>
+								<div>138 min</div></a><a href="http://imdb.com/title/tt0167404/" class="movie">
+								<h3>The Sixth Sense (1999)</h3><img src="./images/The Sixth Sense (1999).jpg"/>
+								<div><strong>8.2</strong>/10</div>
+								<div>107 min</div></a><a href="http://imdb.com/title/tt1735898/" class="movie">
+								<h3>Snow White and the Huntsman (2012)</h3><img src="./images/Snow White and the Huntsman (2012).jpg"/>
+								<div><strong>6.2</strong>/10</div>
+								<div>127 min</div></a><a href="http://imdb.com/title/tt0206512/" class="movie">
+								<h3>SpongeBob SquarePants (1999– )</h3><img src="./images/SpongeBob SquarePants (1999– ).jpg"/>
+								<div><strong>8.1</strong>/10</div>
+								<div>30 min</div></a><a href="http://imdb.com/title/tt0090060/" class="movie">
+								<h3>St. Elmo's Fire (1985)</h3><img src="./images/St. Elmo's Fire (1985).jpg"/>
+								<div><strong>6.3</strong>/10</div>
+								<div>110 min</div></a><a href="http://imdb.com/title/tt0838283/" class="movie">
+								<h3>Step Brothers (2008)</h3><img src="./images/Step Brothers (2008).jpg"/>
+								<div><strong>6.9</strong>/10</div>
+								<div>98 min</div></a><a href="http://imdb.com/title/tt0407887/" class="movie">
+								<h3>The Departed (2006)</h3><img src="./images/The Departed (2006).jpg"/>
+								<div><strong>8.5</strong>/10</div>
+								<div>151 min</div></a><a href="http://imdb.com/title/tt1278469/" class="movie">
+								<h3>Temple Grandin (2010)</h3><img src="./images/Temple Grandin (2010).jpg"/>
+								<div><strong>8.4</strong>/10</div>
+								<div>107 min</div></a><a href="http://imdb.com/title/tt2375605/" class="movie">
+								<h3>The Act of Killing (2012)</h3><img src="./images/The Act of Killing (2012).jpg"/>
+								<div><strong>8.2</strong>/10</div>
+								<div>115 min</div></a><a href="http://imdb.com/title/tt0306414/" class="movie">
+								<h3>The Wire (2002–2008)</h3><img src="./images/The Wire (2002–2008).jpg"/>
+								<div><strong>9.4</strong>/10</div>
+								<div>55 min</div></a><a href="http://imdb.com/title/tt0878804/" class="movie">
+								<h3>The Blind Side (2009)</h3><img src="./images/The Blind Side (2009).jpg"/>
+								<div><strong>7.7</strong>/10</div>
+								<div>129 min</div></a><a href="http://imdb.com/title/tt0258463/" class="movie">
+								<h3>The Bourne Identity (2002)</h3><img src="./images/The Bourne Identity (2002).jpg"/>
+								<div><strong>7.9</strong>/10</div>
+								<div>119 min</div></a><a href="http://imdb.com/title/tt0372183/" class="movie">
+								<h3>The Bourne Supremacy (2004)</h3><img src="./images/The Bourne Supremacy (2004).jpg"/>
+								<div><strong>7.8</strong>/10</div>
+								<div>108 min</div></a><a href="http://imdb.com/title/tt0440963/" class="movie">
+								<h3>The Bourne Ultimatum (2007)</h3><img src="./images/The Bourne Ultimatum (2007).jpg"/>
+								<div><strong>8.1</strong>/10</div>
+								<div>115 min</div></a><a href="http://imdb.com/title/tt0468569/" class="movie">
+								<h3>The Dark Knight (2008)</h3><img src="./images/The Dark Knight (2008).jpg"/>
+								<div><strong>9</strong>/10</div>
+								<div>152 min</div></a><a href="http://imdb.com/title/tt0435651/" class="movie">
+								<h3>The Giver (2014)</h3><img src="./images/The Giver (2014).jpg"/>
+								<div><strong>6.5</strong>/10</div>
+								<div>97 min</div></a><a href="http://imdb.com/title/tt0317705/" class="movie">
+								<h3>The Incredibles (2004)</h3><img src="./images/The Incredibles (2004).jpg"/>
+								<div><strong>8</strong>/10</div>
+								<div>115 min</div></a><a href="http://imdb.com/title/tt0298130/" class="movie">
+								<h3>The Ring (2002)</h3><img src="./images/The Ring (2002).jpg"/>
+								<div><strong>7.1</strong>/10</div>
+								<div>115 min</div></a><a href="http://imdb.com/title/tt0120363/" class="movie">
+								<h3>Toy Story 2 (1999)</h3><img src="./images/Toy Story 2 (1999).jpg"/>
+								<div><strong>7.9</strong>/10</div>
+								<div>92 min</div></a><a href="http://imdb.com/title/tt0435761/" class="movie">
+								<h3>Toy Story 3 (2010)</h3><img src="./images/Toy Story 3 (2010).jpg"/>
+								<div><strong>8.4</strong>/10</div>
+								<div>103 min</div></a><a href="http://imdb.com/title/tt0114709/" class="movie">
+								<h3>Toy Story (1995)</h3><img src="./images/Toy Story (1995).jpg"/>
+								<div><strong>8.3</strong>/10</div>
+								<div>81 min</div></a><a href="http://imdb.com/title/tt0086465/" class="movie">
+								<h3>Trading Places (1983)</h3><img src="./images/Trading Places (1983).jpg"/>
+								<div><strong>7.5</strong>/10</div>
+								<div>116 min</div></a><a href="http://imdb.com/title/tt1104001/" class="movie">
+								<h3>TRON: Legacy (2010)</h3><img src="./images/TRON_ Legacy (2010).jpg"/>
+								<div><strong>6.8</strong>/10</div>
+								<div>125 min</div></a><a href="http://imdb.com/title/tt0217869/" class="movie">
+								<h3>Unbreakable (2000)</h3><img src="./images/Unbreakable (2000).jpg"/>
+								<div><strong>7.2</strong>/10</div>
+								<div>106 min</div></a><a href="http://imdb.com/title/tt1049413/" class="movie">
+								<h3>Up (2009)</h3><img src="./images/Up (2009).jpg"/>
+								<div><strong>8.3</strong>/10</div>
+								<div>96 min</div></a><a href="http://imdb.com/title/tt0086525/" class="movie">
+								<h3>Valley Girl (1983)</h3><img src="./images/Valley Girl (1983).jpg"/>
+								<div><strong>6.3</strong>/10</div>
+								<div>99 min</div></a><a href="http://imdb.com/title/tt1097268/" class="movie">
+								<h3>Very Young Girls (2007)</h3><img src="./images/Very Young Girls (2007).jpg"/>
+								<div><strong>6.6</strong>/10</div>
+								<div>83 min</div></a><a href="http://imdb.com/title/tt0473308/" class="movie">
+								<h3>Waitress (2007)</h3><img src="./images/Waitress (2007).jpg"/>
+								<div><strong>7.1</strong>/10</div>
+								<div>108 min</div></a><a href="http://imdb.com/title/tt0098635/" class="movie">
+								<h3>When Harry Met Sally... (1989)</h3><img src="./images/When Harry Met Sally... (1989).jpg"/>
+								<div><strong>7.6</strong>/10</div>
+								<div>96 min</div></a><a href="http://imdb.com/title/tt0114924/" class="movie">
+								<h3>While You Were Sleeping (1995)</h3><img src="./images/While You Were Sleeping (1995).jpg"/>
+								<div><strong>6.6</strong>/10</div>
+								<div>103 min</div></a><a href="http://imdb.com/title/tt1156398/" class="movie">
+								<h3>Zombieland (2009)</h3><img src="./images/Zombieland (2009).jpg"/>
+								<div><strong>7.7</strong>/10</div>
+								<div>88 min</div></a>
+							</body>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+            
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end listing -->
+    <div class="listing py-5">
+        <div class="container">
+            <div class="row justify-content-between my-4">
+                <h3 class="listing__title text-white">Action</h3>
+                <a href="#" class="text-primary text-capitalize">see all</a>
+            </div>
+            <div class="owl-carousel owl-theme movies">
+                   
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+            
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="bg-primary text-white py-2">
+       <p class="m-0 text-center">Copyright 2019 </p> 
+       <div class="d-flex justify-content-center mr-2">
+           <a href="#" class="text-white mr-2"><i class="fab fa-facebook-f"></i> </a>
+           <a href="#"  class="text-white mr-2"><i class="fab fa-twitter"></i> </a>
+       </div>
+    </footer>
+    <script src="./dist/js/jquery.js"></script>
+    <script src="./dist/js/owl.carousel.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./dist/js/main.js"></script>
+    <script>
+        $(function(){
+            $('.banner .movies').owlCarousel({
+    loop:true,
+
+    nav:false,
+  items:1,
+  dots:false,
+
+    
+});
+
+$('.listing .movies').owlCarousel({
+    loop:true,
+
+    nav:false,
+
+  dots:false,
+  margin:10,
+      
+  responsive:{
+    480:{
+            items:2,
+            nav:false
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:false
+        }
+    }
+
+    
+});
+        });
+    </script>
 </body>
+
+</html>
